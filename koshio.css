@@ -1,0 +1,22 @@
+/* 上のbox start*/
+
+.flex_header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #800080;
+    padding: 30px 20px;
+  }
+
+  .flex_header > div {
+    background-color: #D8BFD8;
+    flex-basis: 140px;
+    height: 70px;
+    margin: 0 10px;
+  }
+  .flex_header > :first-child {
+    margin-right: auto;
+    flex-basis: 140px;
+    height: 70px;
+  }
+
+  /* 上のbox finish */
