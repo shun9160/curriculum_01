@@ -49,3 +49,23 @@
     margin: 10px;
   }
   /* 真ん中のbox  finish*/
+
+  /* 下のbox  start*/
+.flex_footer {
+    display: flex;
+    justify-content: center;
+    background-color: #4169e1;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.flex_footer > div {
+    background-color: #87ceeb;
+    flex-basis: 45%;
+    height: 40px;
+    max-width: 600px;
+    margin: 10px;
+    
+}
+
+  /* 下のbox  finish*/
